@@ -82,7 +82,14 @@ body {
     z-index: 2;
     padding-top: 10px;
 }
-
+.container {
+    padding:0px;
+    margin: 0px;
+}
+.row {
+    padding:0px;
+    margin: 0px;
+}
 .emergency {
 
     width: 400px;
@@ -112,6 +119,8 @@ body {
     position: relative;
     z-index: 1;
     margin-top: 20px;
+
+    padding:0px;
 }
 
 .zoom-controls {
