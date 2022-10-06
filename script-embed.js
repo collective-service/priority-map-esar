@@ -119,7 +119,7 @@ function initiateMap() {
     mapsvg.append("rect")
         .attr("width", "100%")
         .attr("height", "100%")
-        // .attr("fill", "#d9d9d9");
+        .attr("fill", "none");
         //.attr("fill", "#FFF"); //#1b365e //294780 //1b365e //cdd4d9
     // .attr("fill-opacity", "0.5");
 
