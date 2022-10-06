@@ -76,14 +76,15 @@ body {
     z-index: 10;
     top: 30px;
     right: 20px; */
+    left: 20px;
+    top: 10px;
+    position: absolute;
+    z-index: 2;
     padding-top: 10px;
 }
 
 .emergency {
-    right: 20px;
-    top: 30px;
-    position: absolute;
-    z-index: 2;
+
     width: 400px;
     height: 440px;
     overflow-y: auto;
@@ -106,9 +107,11 @@ body {
 }
 
 #map {
-    width: 520px;
+    width: 500px;
     height: 500px;
     position: relative;
+    z-index: 1;
+    margin-top: 20px;
 }
 
 .zoom-controls {

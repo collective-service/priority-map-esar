@@ -120,7 +120,7 @@ function initiateMap() {
         .attr("width", "100%")
         .attr("height", "100%")
         // .attr("fill", "#d9d9d9");
-        .attr("fill", "#FFF"); //#1b365e //294780 //1b365e //cdd4d9
+        //.attr("fill", "#FFF"); //#1b365e //294780 //1b365e //cdd4d9
     // .attr("fill-opacity", "0.5");
 
     d3.select('#title').style('right', width / 2 + 'px');
