@@ -85,10 +85,10 @@ const isMobile = $(window).width() < 767 ? true : false;
 const viewportWidth = window.innerWidth;
 let currentZoom = 1;
 
-const mapFillColor = '#546B89', //00acee F9F871 294780 6077B5 001e3f A6B0C3
-    mapInactive = '#001e3f',
+const mapFillColor = '#2F9C67', //00acee F9F871 294780 6077B5 001e3f A6B0C3
+    mapInactive = '#204669',
     mapActive = '#A6B0C3',
-    hoverColor = '#546B89';
+    hoverColor = '#D90368';
 
 let g, mapsvg, projection, width, height, zoom, path, maptip;
 let countriesISO3Arr = [];
